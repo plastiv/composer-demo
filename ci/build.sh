@@ -5,5 +5,5 @@ docker run \
     -it \
     --rm \
     --volume=$(pwd):/opt/workspace \
-    --entrypoint "/opt/workspace/ci/assemble.sh" \
-    plastiv/android-sdk
+    --entrypoint "/opt/workspace/ci/run_test.sh" \
+    plastiv/android-emulator
