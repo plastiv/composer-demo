@@ -2,6 +2,7 @@
 set -e
 
 ci/assemble.sh
+ci/create-avd.sh
 adb kill-server
 ci/start-emulator.sh &
 adb start-server
