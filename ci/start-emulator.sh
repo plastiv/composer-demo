@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # https://developer.android.com/studio/run/emulator-commandline#startup-options
-emulator -verbose -show-kernel -avd android-emulator-28 \
+emulator -avd android-emulator-28 \
          -no-accel \
          -no-audio \
          -no-window \

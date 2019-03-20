@@ -1,7 +1,7 @@
 #!/bin/bash
 
 yes 'n' | avdmanager --silent create avd \
-    --name android-emulator-${EMULATOR_API_LEVEL} \
+    --name android-emulator-28 \
     --device "4in WVGA (Nexus S)" \
-    --package "system-images;android-${EMULATOR_API_LEVEL};${EMULATOR_VARIANT};${EMULATOR_ARCH}" \
+    --package "system-images;android-28;google_apis;x86_64" \
     --sdcard 64M
