@@ -4,4 +4,4 @@ set -e
 ./gradlew --no-daemon \
     assembleDebug \
     assembleDebugUnitTest \
-    assebleDebugAndroidTest
+    assembleDebugAndroidTest
