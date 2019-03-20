@@ -3,4 +3,6 @@ set -e
 
 java -jar ci/composer-0.6.0.jar \
     --apk app/build/outputs/apk/debug/app-debug.apk \
-    --test-apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk
+    --test-apk app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk \
+    --install-timeout 500 \
+    --verbose-output true
